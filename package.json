@@ -1,0 +1,14 @@
+{
+  "name": "book-a-call",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "build": "pnpm --filter @app/api build",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^24.12.3"
+  }
+}

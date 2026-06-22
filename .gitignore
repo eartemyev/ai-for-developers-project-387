@@ -1,0 +1,13 @@
+node_modules/
+tsp-output/
+dist/
+test-results/
+*.log
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+src/BookACall.Api/wwwroot/
